@@ -1,0 +1,160 @@
+h1
+{
+  font-weight: bold;
+  font-size: 45px;
+}
+
+h2
+{
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+}
+
+h3
+{
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+}
+
+p
+{
+  color: black;
+  font-size: 18px;
+}
+
+.heading
+{
+  float: center;
+  background-color: darkred;
+  width: 60%;
+  margin: auto;
+  padding : 2%;
+}
+
+.heading h1, .heading h3, .heading p
+{
+  color: white;
+  font-weight: normal;
+}
+
+
+.introduction
+{
+  display: flex;
+  color:black;
+  border: solid white;
+  padding : 5%;
+}
+
+.aboutme
+{
+  width: 70%;
+  background-color:#99CC99;
+  padding : 1.5%;
+}
+
+.picture
+{
+  background-color: #99CC99;
+  flex: 1;
+}
+
+.links
+{
+  display: inline;
+  float: left;
+  background-color: #99CC99;
+  color: black;
+  border: solid white;
+  padding : 3%;
+  width: 27%;
+}
+
+img.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pictureAndBorder
+{
+  border-width: 25px;
+  border-color: #99CC99;
+  border-style: solid;
+  flex: 1;
+  width: 600;
+  height: 700;
+}
+
+ol
+{
+  width: 50%;
+  margin: auto;
+}
+
+.footer
+{
+  display: flex;
+  background-color:lightgreen;
+  padding : center;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.address, .email, .phone
+{
+  background: #99CC99;
+  border-width: 25px;
+  border-color: lightgreen;
+  border-style: solid;
+  font-size: 18px;
+  padding: 3%;
+}
+
+.title
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 200%;
+  color: black;
+}
+
+.touchTitle
+{
+  text-align:center;
+  color: white;
+  text-decoration: underline;
+}
+
+.work
+{
+  display: flex;
+  color:black;
+  border: solid white;
+  padding : 5%;
+}
+
+.experience
+{
+  width: auto;
+  background-color:#99CC99;
+  padding : 1.5%;
+}
+
+.workpicture
+{
+  background-color: #99CC99;
+  flex: 1;
+  margin: auto;
+}
+
+body
+{
+  background-color: lightyellow;
+}
