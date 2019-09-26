@@ -2,6 +2,7 @@ h1
 {
   font-weight: bold;
   font-size: 45px;
+  text-align: center;
 }
 
 h2
@@ -9,6 +10,7 @@ h2
   font-weight: bold;
   color: black;
   font-size: 35px;
+  text-align: center;
 }
 
 h3
@@ -16,12 +18,14 @@ h3
   font-weight: bold;
   color: black;
   font-size: 25px;
+  text-align: center;
 }
 
 p
 {
   color: black;
   font-size: 18px;
+  text-align: center;
 }
 
 .heading
@@ -45,7 +49,7 @@ p
   display: flex;
   color:black;
   border: solid white;
-  padding : 5%;
+  padding: 2%;
 }
 
 .aboutme
@@ -95,49 +99,12 @@ ol
   margin: auto;
 }
 
-.footer
-{
-  display: flex;
-  background-color:lightgreen;
-  padding : center;
-  flex-direction: column;
-  width: 30%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.address, .email, .phone
-{
-  background: #99CC99;
-  border-width: 25px;
-  border-color: lightgreen;
-  border-style: solid;
-  font-size: 18px;
-  padding: 3%;
-}
-
-.title
-{
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  line-height: 200%;
-  color: black;
-}
-
-.touchTitle
-{
-  text-align:center;
-  color: white;
-  text-decoration: underline;
-}
-
 .work
 {
   display: flex;
   color:black;
   border: solid white;
-  padding : 5%;
+  padding : 2%;
 }
 
 .experience
@@ -152,6 +119,59 @@ ol
   background-color: #99CC99;
   flex: 1;
   margin: auto;
+}
+
+.footer
+{
+  display: flex;
+  background-color:lightgreen;
+  padding : center;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.email, .phone
+{
+  background: #99CC99;
+  border-width: 25px;
+  border-color: lightgreen;
+  border-style: solid;
+  font-size: 18px;
+  padding: 5%;
+}
+
+.address
+{
+  background: #99CC99;
+  border-width: 25px;
+  border-color: lightgreen;
+  border-style: solid;
+  font-size: 18px;
+  padding: 5%;
+  text-align: center;
+}
+.phone p
+{
+  text-align:center;
+  font-size: 20px;
+}
+
+.title
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 200%;
+  color: black;
+}
+
+.getInTouchTitle
+{
+  text-align:center;
+  color: white;
+  text-decoration: underline;
 }
 
 body
