@@ -4,75 +4,139 @@
       <style type=text/css>
          h1
          {
-         font-weight: bold;
-         color: black;
-         font-size: 45px;
+           font-weight: bold;
+           color: black;
+           font-size: 45px;
          }
 
          h2
          {
-         font-weight: bold;
-         color: black;
-         font-size: 20px;
+           font-weight: bold;
+           color: black;
+           font-size: 35px;
          }
 
          h3
          {
-         font-weight: bold;
-         color: black;
-         font-size: 20px;
+           font-weight: bold;
+           color: black;
+           font-size: 25px;
+         }
+
+         p
+         {
+           color: black;
+           font-size: 18px;
          }
 
          .heading
          {
-         background-image: url('maryland.jpg');
-         max-width:100%;
-         height:auto;
+           float: center;
+           background-color:lightgreen;
+           width: auto;
+           height: auto;
+           color: black;
+           border: solid white;
+           padding : 2%;
          }
 
-         img
+         .introduction
          {
-         max-width:100%;
-         height:auto;
-         }
+           display: flex;
+           color:black;
+           border: solid white;
+           padding : 5%;
 
-         .heading
-         {
-         float: center;
-         background-color:lightgreen;
-         width: auto;
-         color: black;
-         border: solid white;
-         padding : 3%;
          }
 
          .aboutme
          {
-         display: inline;
-         float: right;
-         background-color:#99CC99;
-         color:black;
-         border: solid white;
-         padding : 3%;
-         width: 60%;
+           width: 70%;
+           background-color:#99CC99;
+           padding : 1.5%;
+         }
+
+         .picture
+         {
+           background-color: #99CC99;
+           flex: 1;
+
+
          }
 
          .links
          {
-         display: inline;
-         float: left;
-         background-color:#99CC99;
-         color: black;
-         border: solid white;
-         padding : 3%;
-         width: 27%;
+           display: inline;
+           float: left;
+           background-color: #99CC99;
+           color: black;
+           border: solid white;
+           padding : 3%;
+           width: 27%;
          }
 
          img.center
          {
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+         }
+
+         .border
+         {
+           border-width: 25px;
+           border-color: #99CC99;
+           border-style: solid;
+           flex: 1;
+           width: auto;
+
+         }
+
+         ol
+         {
+           width: 50%;
+           margin: auto;
+         }
+
+         .footer
+         {
+           display: flex;
+           background-color:lightgreen;
+           padding : 2%;
+         }
+
+         .address
+         {
+           background: #99CC99;
+           border-width: 25px;
+           border-color: lightgreen;
+           border-style: solid;
+           color: black;
+         }
+
+         .email
+         {
+           background: #99CC99;
+           border-width: 25px;
+           border-color: lightgreen;
+           border-style: solid;
+           color: black;
+         }
+
+         .phone
+         {
+           background: #99CC99;
+           border-width: 25px;
+           border-color: lightgreen;
+           border-style: solid;
+           color: black;
+         }
+
+         .footer div
+         {
+           font-size: 20px;
+           padding: 2%;
+           flex: 1;
          }
 
          div{
@@ -86,33 +150,72 @@
          <h1 style="text-align:center">Neel Shah</h1>
          <h3 style="text-align:center">Senior at The University of Maryland</h3>
          <p style="text-align:center">Information Science and Statistics</p>
-         <div class="bgimg">
-         </div>
       </div>
 
-      <div class="aboutme">
-         <h2 style="text-align:center">About Me</h2>
-         <p style="text-align:center">Currently, I am a student at the University of Maryland pursuing
-         a Bachelor's degree in Information Science with a concentration in
-         Data Analytics along with a Minor in Statistics. I am interested in
-         improving services for customers by using advanced analytics, big-data
-         analytical tools, and creating/maintaining models.
-         </p>
-      </div>
-
-      <div class="links">
-         <h2 style="text-align:center">Links</h2>
-
-         <div class="logos">
-            <a href="https://www.linkedin.com/in/neel-shah24/" target="_blank">
-            <img class="center" width="80" height="80" border="0" alt="LinkedIn" src="linkedin-logo-button-social-media-icon-2025.png">
-         </a>
-
-           <a href="https://github.com/nshah98" target="_blank">
-           <img class="center" width="80" height="80" border="0" alt="GitHub" src="github-logo.png">
+      <div class="introduction">
+        <div class="aboutme">
+          <h2 style="text-align:center">About Me</h2>
+          <p>Currently, I am a student at the University of Maryland pursuing
+            a Bachelor's degree in Information Science with a concentration in
+            Data Analytics along with a Minor in Statistics. I am interested in
+            improving services for customers by using advanced analytics, big-data
+            analytical tools, and creating/maintaining models. <br><br> Over the past year I have had the opportunity to
+            work for the United States Department of Energy as a Junior Oracle Database Developer. As an Intern,
+             I was a part of the Short-Term Energy Outlook sector, which includes a model of econometric
+             regression equations and identities that data on the various components of the U.S. Energy
+             together in order to develop consistent forecasts. My main responsibilities included developing
+              new database objects like Sequences, Procedures, Functions, Triggers, and Views in the development
+              and production environment to do further regression analysis within the Model. <br><br> Recently, I had the
+              opportunity to intern for a Kelvin Inc. As a Data Scientist Intern, I was able to build and improve
+              the Non-Arrival Response and the Ascent Velocity Models. These two models took in raw data and used
+              it to improve the gas production from different wells. My main project included building an
+              Elasticsearch API in order to improve filtering and sorting logger data from different entities.
+          </p>
+          <h3 style="text-align:center">Links</h3>
+          <a href="https://www.linkedin.com/in/neel-shah24/" target="_blank">
+            <img class="center" width="70" height="70" border="0" alt="LinkedIn" src="linkedin-logo-button-social-media-icon-2025.png">
           </a>
+           <a href="https://github.com/nshah98" target="_blank">
+             <img class="center" width="70" height="70" border="0" alt="GitHub" src="github-logo.png">
+           </a>
+        </div>
+        <div class="picture">
+         <img class="border" width="600" height="600" alt="PersonalPicture" src="personalpic.JPEG">
         </div>
       </div>
+
+
+
+      <div class="footer">
+          <div class="address">
+                <h3 style="text-align:center; color: white;">Address</h3>
+                  <address style="text-align:center">
+                    University of Maryland College Park<br>
+                    6801 Pinkert Dr.<br>
+                    College Park, MD 20742<br>
+                    United States
+                  </address>
+          </div>
+
+          <div class="email">
+                <h3 style="text-align:center; color: white;">Email</h3>
+                <ol>
+                    <li><a href="mailto:neelshah98@gmail.com">neelshah98@gmail.com</a></li>
+                    <li><a href="mailto:nshah24@umd.edu">nshah24@umd.edu</a></li>
+                </ol>
+          </div>
+
+          <div class="phone">
+                <h3 style="text-align:center; color: white;">Phone</h3>
+                <p style="text-align:center; font-size: 20px;">Fax: 443-145-2376</p>
+                <p style="text-align:center; font-size: 20px;">Work: 410-245-2365</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
 
    </body>
 </html>
