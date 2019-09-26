@@ -44,7 +44,6 @@
            color:black;
            border: solid white;
            padding : 5%;
-
          }
 
          .aboutme
@@ -78,13 +77,14 @@
            margin-right: auto;
          }
 
-         .border
+         .pictureAndBorder
          {
            border-width: 25px;
            border-color: #99CC99;
            border-style: solid;
            flex: 1;
-           width: auto;
+           width: 600;
+           height: 700;
          }
 
          ol
@@ -104,27 +104,7 @@
            margin: 0 auto;
          }
 
-         .address
-         {
-           background: #99CC99;
-           border-width: 25px;
-           border-color: lightgreen;
-           border-style: solid;
-           font-size: 18px;
-           padding: 3%;
-         }
-
-         .email
-         {
-           background: #99CC99;
-           border-width: 25px;
-           border-color: lightgreen;
-           border-style: solid;
-           font-size: 18px;
-           padding: 3%;
-         }
-
-         .phone
+         .address, .email, .phone
          {
            background: #99CC99;
            border-width: 25px;
@@ -138,16 +118,38 @@
          {
            font-size: 20px;
            font-weight: bold;
-
+           text-decoration: underline;
+           line-height: 200%;
          }
 
          .touchTitle
          {
            text-align:center;
            color: white;
+           text-decoration: underline;
          }
 
+         .work
+         {
+           display: flex;
+           color:black;
+           border: solid white;
+           padding : 5%;
+         }
 
+         .experience
+         {
+           width: auto;
+           background-color:#99CC99;
+           padding : 1.5%;
+         }
+
+         .workpicture
+         {
+           background-color: #99CC99;
+           flex: 1;
+           margin: auto;
+         }
 
          div{
 
@@ -190,15 +192,19 @@
            </a>
         </div>
         <div class="picture">
-         <img class="border" width="600" height="600" alt="PersonalPicture" src="personalpic.JPEG">
+         <img class="pictureAndBorder" alt="PersonalPicture" src="personalpic.JPEG">
         </div>
       </div>
 
       <div class="work">
+        <div class="workpicture">
+         <img width="700" height=auto alt="workimage" src="work.png">
+        </div>
+
         <div class="experience">
           <h2 style="text-align:center">Work Experience</h2>
           <ol>
-            <li class="title">Data Science Intern at Kelvin Inc.</li>
+              <li class="title">Data Science Intern at Kelvin Inc.</li>
               <ul>
                 <li>Ensure the data used to control our customers' industrial equipment is fit for its purpose</li>
                 <li>Using data to optimize the customer</li>
@@ -220,11 +226,6 @@
                 <li>Identify, analyze, and interpret trends or patterns in complex data sets</li>
               </ul>
           </ol>
-
-          
-        </div>
-        <div class="picture">
-         <img class="border" width="600" height="600" alt="PersonalPicture" src="personalpic.JPEG">
         </div>
       </div>
 
