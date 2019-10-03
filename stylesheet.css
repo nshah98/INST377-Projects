@@ -53,6 +53,8 @@ p
   color:black;
   border: solid white;
   padding: 2%;
+  width: 60%;
+  margin: auto;
 }
 
 .aboutme
@@ -76,7 +78,6 @@ p
   color: black;
   border: solid white;
   padding : 3%;
-  width: 27%;
 }
 
 img.center
@@ -108,6 +109,8 @@ ol
   color:black;
   border: solid white;
   padding : 2%;
+  width: 60%;
+  margin: auto;
 }
 
 .experience
@@ -115,13 +118,19 @@ ol
   width: auto;
   background-color:#99CC99;
   padding : 1.5%;
+  width: 60%;
+  margin: auto;
 }
 
 .workpicture
 {
-  background-color: #99CC99;
+  border-width: 25px;
+  border-style: solid;
+  border-color: darkred;
   flex: 1;
   margin: auto;
+  width: 10;
+
 }
 
 .footer
@@ -130,7 +139,7 @@ ol
   background-color:lightgreen;
   padding : center;
   flex-direction: column;
-  width: 30%;
+  width: 60%;
   height: auto;
   margin: 0 auto;
 }
